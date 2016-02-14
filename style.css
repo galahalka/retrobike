@@ -1,0 +1,331 @@
+html {
+  font-family:"Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: url(images/header-bg.jpg) 100% 100% no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  height: 800px;
+  position:relative;
+  width: 100%;
+}
+
+footer {
+  background:#f7f7f7;
+  padding: 100px 0 104px;
+}
+
+nav {
+  text-align: center;
+  padding-top: 65px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 37px;
+}
+
+#nav-link-center-left {
+  margin-right: : 116px;
+}
+
+#nav-link-center-right {
+  margin-left: 116px;
+}
+
+nav a {
+  color: #4d4959;
+  text-decoration: none;
+}
+
+#Logo {
+  left: -47px;
+  margin-left: 50%;
+  position:absolute;
+  top: 22px;
+}
+
+article {
+  background:#f7f7f7;
+  padding: 116px 16.375% 147px;
+  text-align: center;
+}
+
+.content-row {
+display: table;
+min-height: 534px;
+width: 100%;
+}
+
+.content-block {
+  display: table-cell;
+  text-align: center;
+}
+
+.content-block .bottom-img {
+  display: block;
+  width: 100%;
+}
+
+.no-text-block {
+  font-size: 0;
+}
+
+.cb-full {
+  width: 100%;
+}
+
+.cb-xlarge {
+  width: 66.666%;
+}
+
+.cb-large {
+  width: 50%;
+}
+
+.cb-medium {
+  box-sizing: border-box;
+  width: 33.333%;
+}
+
+.cb-small {
+  width: 16.6665%
+}
+
+.image-block {
+  background-position: center;
+  background-size: cover;
+  display: table-cell;
+}
+
+#icon-vintage-oliva {
+  padding: 72px 0 34px;
+  text-align: center;
+}
+
+.content-block .title {
+  color: #353738;
+  font-size: 18px;
+  text-align: center;
+}
+
+#icon-retro-bike {
+  padding: 72px 0 34px;
+  text-align: center;
+}
+
+.oliva-info {
+  color: #848789;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 26px 66px 14px 68px;
+  margin: 0;
+  position: relative;
+  text-align: justify;
+}
+
+.oliva-info::before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.oliva-info::after {
+  border-top: 1px solid #848789;
+  content: "";
+  display: block;
+  margin: 40px auto;
+  width: 50px;
+}
+
+h2 {
+  color: #353738;
+  font-size: 18px;
+  margin: 0;
+}
+
+p {
+  color: #96999a;
+  font-size: 16px;
+}
+
+#icon-vintaz-bike {
+  margin: 16px;
+  text-align: center;
+}
+
+.bicycle-company-img {
+  background-image: url(images/bicycle-company.jpg);
+}
+
+.vintage-bicycle-img {
+  background-image: url(images/vintage-bicycle.jpg)
+}
+
+.since-bicykles-img {
+  background-image: url(images/since-bicykles.jpg)
+}
+
+.red-retro-bike-img {
+  background-image: url(images/red-retro-bike.jpg);
+}
+
+.shop1-img {
+  background-image: url(images/shop1.jpg);
+  height: 50%;
+  display: inline-block;
+}
+
+.shop2-img {
+  background-image: url(images/shop2.jpg);
+  height: 50%;
+  display: inline-block;
+}
+
+.shop3-img {
+  background-image: url(images/shop3.jpg);
+  height: 50%;
+  display: inline-block;
+}
+
+.shop4-img {
+  background-image: url(images/shop4.jpg);
+}
+
+.shop5-img {
+  background-image: url(images/shop5.jpg);
+}
+
+.shop6-img {
+  background-image: url(images/shop6.jpg);
+  height: 50%;
+  display: inline-block;
+}
+
+.shop7-img {
+  background-image: url(images/shop7.jpg);
+  height: 50%;
+  display: inline-block;
+}
+
+.shop8-img {
+  background-image: url(images/shop8.jpg);
+  height: 50%;
+  display: inline-block;
+}
+
+#icon-la-boriosa {
+  padding: 72px 0 34px;
+  text-align: center;
+}
+
+.twitter-info {
+  color: #353738;
+  font-size: 18px;
+}
+
+#twitter-time {
+  color: #848789;
+}
+
+.twitter-message {
+  color: #848789;
+  font-size: 24px;
+}
+
+.discover {
+  background-color: #282f35;
+  padding: 80px 0 94px;
+  text-align: center;
+}
+
+.discover-shop {
+  border: 1px solid #b1b2b4;
+  color: #fff;
+  padding: 20px 56px;
+}
+
+.email {
+  padding: 110px 0 112px;
+  text-align: center;
+}
+
+.stay {
+  color: #848789;
+  font-weight: normal;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.email-input {
+  border: 1px solid #cdcdcd;
+  font-size: 20px;
+  height: 70px;
+  padding-left: 26px;
+  width: 400px;
+}
+
+.email-button {
+  background-color: #64c29e;
+  border: #64c29e;
+  color: #fff;
+  font-size: 24px;
+  height: 73px;
+  margin-left: 8px;
+  vertical-align: top;
+  width: 126px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.address {
+  display: inline-block;
+  padding-left: 15.625%;
+}
+
+.icon {
+  display: inline-block;
+  text-align: center;
+}
+
+.icon-info {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.by {
+  color: #848789;
+  display: inline-block;
+  padding-right: 15.625%;
+  text-align: right;
+}
+
+#by {
+  position: relative;
+  margin-right: 10px;
+  top: -15px;
+}
